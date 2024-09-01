@@ -9,6 +9,7 @@ st.write(
     """Choose the fruits you want in your custom Smoothie
     """
 )
+ingredients_string = ''
 
 name_on_order = st.text_input("Name on the smoothie")
 st.write("The Name on smoothie is", name_on_order)
